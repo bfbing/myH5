@@ -3,6 +3,7 @@ html,body，page{
     width: 100%;
     margin: 0;
 }
+
 page{
     height:100%;
     width: 100%;
@@ -14,20 +15,36 @@ page{
 }
 #c{
     background-color: lightgreen;
-    animation: c 10s infinite;
+    animation: c 9.4s infinite;
 }
 #x{
     background-color: red;
-    animation: x 10s infinite;
+    animation: x 9.4s infinite;
 }
 #q{
-    background-color: white;
-    animation: q 10s infinite;
+    animation: q 9.4s infinite;
+    background: url("../img/01.jpg");
+    background-size: 100% 100%;
 }
 #d{
     background-color: #000000;
     color: white;
-    animation: d 10s infinite;
+    animation: d 9.4s infinite;
+}
+#z{
+    font-size: 36px;
+    display: block;
+    animation: z 9.4s infinite;
+}
+@keyframes z {
+    0%{opacity: 0}
+    20%{opacity: 0}
+    40%{opacity: 0}
+    60%{opacity: 0}
+    70%{opacity: 0}
+    80%{opacity: 100}
+    90%{opacity: 0}
+    100%{opacity:0}
 }
 @keyframes c {
     0%{opacity: 0}
